@@ -297,34 +297,34 @@ Fork the Fourthwall vercel-commerce starter, restructure for an artist site with
 
 ### Functional Requirements
 
-- [ ] Homepage renders all sections (hero, music, film promo, shows, gallery)
-- [ ] Music page shows releases with streaming links
-- [ ] Shows page lists upcoming shows with venue/ticket info
-- [ ] About page shows bio and contact information
-- [ ] Merch page displays Fourthwall products in grid (or "coming soon")
-- [ ] Product detail pages show variants, images, pricing
-- [ ] Cart drawer works (add, remove, quantity, totals)
-- [ ] Checkout redirects to Fourthwall hosted checkout
-- [ ] All pages navigate correctly
+- [x] Homepage renders all sections (hero, music, film promo, shows, gallery)
+- [x] Music page shows releases with streaming links
+- [x] Shows page lists upcoming shows with venue/ticket info
+- [x] About page shows bio and contact information
+- [x] Merch page displays Fourthwall products in grid (or "coming soon")
+- [x] Product detail pages show variants, images, pricing
+- [x] Cart drawer works (add, remove, quantity, totals)
+- [x] Checkout redirects to Fourthwall hosted checkout
+- [x] All pages navigate correctly
 - [ ] Mobile responsive at 390px, 768px, 1024px, 1440px
 
 ### Non-Functional Requirements
 
 - [ ] Lighthouse performance 90+
-- [ ] Zero TypeScript errors (strict mode)
-- [ ] WCAG 2.1 AA compliant (contrast, focus, alt text)
-- [ ] Proper SEO (meta tags, OG, sitemap, robots.txt)
-- [ ] Graceful degradation without API token
-- [ ] ISR with 1-hour revalidation + webhook invalidation
-- [ ] No unused dependencies
-- [ ] Dark mode only (no light mode toggle)
+- [x] Zero TypeScript errors (strict mode)
+- [x] WCAG 2.1 AA compliant (contrast, focus, alt text)
+- [x] Proper SEO (meta tags, OG, sitemap, robots.txt)
+- [x] Graceful degradation without API token
+- [x] ISR with 1-hour revalidation + webhook invalidation
+- [x] No unused dependencies
+- [x] Dark mode only (no light mode toggle)
 
 ### Quality Gates
 
-- [ ] E2E tests pass
-- [ ] Build succeeds
+- [x] E2E tests pass
+- [x] Build succeeds
 - [ ] Deployed to Vercel
-- [ ] All commits atomic with clear messages
+- [x] All commits atomic with clear messages
 
 ## Design Specifications
 
